@@ -1,0 +1,33 @@
+name = "UTL"
+grammar = "utl"
+path_suffixes = ["utl"]
+line_comments = []
+tab_size = 2
+
+autoclose_before = ",]})%"
+
+[[brackets]]
+start = "("
+end = ")"
+close = true
+newline = false
+
+[[brackets]]
+start = "["
+end = "]"
+close = true
+newline = false
+
+[[brackets]]
+start = "\""
+end = "\""
+close = true
+newline = false
+not_in = ["string", "comment"]
+
+[[brackets]]
+start = "'"
+end = "'"
+close = true
+newline = false
+not_in = ["string", "comment"]

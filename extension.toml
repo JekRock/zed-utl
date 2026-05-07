@@ -1,11 +1,11 @@
 id = "utl"
 name = "UTL"
 description = "UTL (Universal Template Language) support for Zed"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Yevhen Badorov"]
 repository = "https://github.com/JekRock/zed-utl"
 
 [grammars.utl]
 repository = "https://github.com/JekRock/tree-sitter-utl"
-rev = "6ac9525e9f96483679e781ff06297ccd65013e4d"
+rev = "2064726751b522570b1d1327f1980458f78963b9"
